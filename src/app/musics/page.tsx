@@ -4,7 +4,7 @@ import { Track } from "@/src/lib/store/player-store";
 async function getTracks(): Promise<Track[]> {
 
   const res = await fetch(
-    `/api/tracks`
+    `http://localhost:3000/api/tracks`
   );
 
   if (!res.ok) {
