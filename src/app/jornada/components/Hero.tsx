@@ -11,7 +11,7 @@ export default function Hero() {
         transition={{ duration: 0.5, ease: 'easeOut' }}
         className="font-body text-label-caps uppercase tracking-[0.15em] text-on-surface-variant/60"
       >
-        Bem-vinda!!!
+        Bem-vindo!!!
       </motion.p>
 
       <motion.h1
@@ -36,7 +36,7 @@ export default function Hero() {
         transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
         className="mx-auto mt-stack-sm max-w-lg font-display text-lg italic leading-snug text-on-surface-variant"
       >
-        Tirei um tempinho do meu tempo para criar esse lugar, onde preparei cartas para todos os seus dias. Aproveite!
+        Cara, não sei quando você vai ver isso, deve chegar em casa e dormir hahahaha. Mas deixarei aqui, caso queira ver quando conseguir.
       </motion.p>
     </div>
   );

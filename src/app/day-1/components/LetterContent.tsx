@@ -32,61 +32,28 @@ export default function LetterContent() {
       <LetterBlock tone="normal">
         <p className="font-body text-body-lg leading-relaxed text-on-surface-variant/85">
           <span className="float-left mr-2 font-display text-6xl font-bold leading-[0.8] text-primary">
-            J
+            G
           </span>
-          úlia, bem-vinda ao primeiro dia de um dos momentos mais lindos da
-          minha vida... E tenho certeza de que também será um dos mais
-          lindos da sua também.
+          ustavo, se você está lendo essa mensagem, significa que deu tudo
+          certo. Você deve ter concluído seu primeiro dia com êxito!
         </p>
 
         <motion.div
-          className="flex flex-col items-center gap-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.6 }}
           variants={{
-            hidden: {},
-            visible: {
-              transition: { staggerChildren: 0.35, delayChildren: 0.1 },
-            },
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
           }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
         >
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 10 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
-          >
-            <Highlight>
-              <p className="font-body text-body-lg leading-relaxed text-on-surface-variant/85">
-                Muhehehe!
-              </p>
-            </Highlight>
-          </motion.div>
-
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, scale: 0.85, y: 24 },
-              visible: { opacity: 1, scale: 1, y: 0 },
-            }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
-          >
-            <Image
-              className="rounded-2xl"
-              src="/muhehehe.jpg"
-              alt="Muhehehehe"
-              width={300}
-              height={300}
-            />
-          </motion.div>
+          <Highlight>
+            <p className="font-body text-body-lg leading-relaxed text-on-surface-variant/85">
+              E aí, chegou atrasado por acaso? Imagino que sim, hahahahaha!
+            </p>
+          </Highlight>
         </motion.div>
-
-        <Paragraph>
-          Acho que você deve ter chegado um pouquinho atrasada, né? Os
-          padrinhos têm esse costume feio de sair tarde no primeiro dia...
-          Não sei não, hein!
-        </Paragraph>
 
         <motion.div
           className="flex flex-col items-center gap-4"
@@ -108,9 +75,9 @@ export default function LetterContent() {
             transition={{ duration: 0.55, ease: 'easeOut' }}
           >
             <p className="font-body text-body-lg leading-relaxed text-on-surface-variant/85">
-              E aí, rodou bastante, piãozinho? Decorou todas as danças? Se não
-              decorou, pode ir treinando, porque ainda vai dançar muito! Se eu
-              fosse você, começava agora mesmo! Muhahahaha!
+              Rodou que nem um piãozinho? E as danças, já aprendeu todas? Se
+              eu fosse você, já ia praticando. Vai que precisa pagar prenda
+              depois... Muhahahaha!
             </p>
           </motion.div>
 
@@ -132,105 +99,70 @@ export default function LetterContent() {
         </motion.div>
 
         <Paragraph>
-          &ldquo;Toma, toma, toma, biscoitinho...&rdquo; Me diz uma coisa:
-          você comeu biscoito? Acho que você gosta, mas não sei se deu
-          vontade na hora. Mas também tem bolo! Os lanches do primeiro dia
-          são muito bons. Espero que você tenha aproveitado bastante!
+          Cara, é incrível como as coisas são engraçadas. Quem imaginaria que
+          três dias podem mudar uma vida? Claro que é algo que você vai ver
+          por conta própria, porque minhas palavras, escritas ou ditas, não
+          vão dar conta. É algo sensorial, que precisa ser sentido e vivido.
         </Paragraph>
 
         <Paragraph>
-          E aí, tinha muita gente? No meu EJC eram umas cinquenta e poucas
-          pessoas. Imagino que o seu esteja mais ou menos assim também.
+          Nesses dias, você vai viver experiências únicas que,
+          infelizmente, não se repetem. Mas, para sua felicidade, o seu
+          momento de vivê-las é agora! Aproveite, esqueça os problemas e
+          os medos, faça coisas novas, faça coisas velhas, viva bastante,
+          tenha um ou mais propósitos, ame muito e seja gentil com quem
+          está ao seu lado. É tudo novo para eles também.
         </Paragraph>
 
         <Paragraph>
-          Seus apresentadores são legais? Os meus eram simplesmente
-          incríveis: muito divertidos e acolhedores! E pode acreditar: com
-          o passar dos dias, eles conseguem ficar ainda melhores.
-        </Paragraph>
-
-        <Paragraph>
-          E as músicas? Gostou? A bandinha anima todo mundo! Quando eles
-          começam a tocar, parece impossível ficar parado.
-        </Paragraph>
-
-        <Paragraph>
-          Vocês já conheceram as funções das equipes? Todas as pessoas que
-          estão aí têm um único objetivo: <Highlight>servir você</Highlight>.
-          Então, se precisar de qualquer coisa, não tenha vergonha de
-          pedir ajuda.
-        </Paragraph>
-
-        <Paragraph>
-          Você vai encontrar rostos conhecidos e outros nem tanto. E tem
-          uma pessoa de quem eu gosto muito que costuma servir no EJC: Márcio. Ele animou demais o meu encontro! Só espero que ele
-          esteja no trânsito... KAKAKAKAKAK! No meu EJC ele simplesmente
-          pulou em cima do meu carro!
+          Ao escrever a carta de vocês, lembro o quanto foi mágico o meu
+          Encontro de Jovens com Cristo: o pessoal do trânsito me tirando
+          de dentro do carro e levando minhas coisas, os lanchinhos vindo
+          animar o meu dia (comida, né?), os apresentadores sempre super
+          animados, a boa vontade me levando toda hora pro banheiro,
+          KAKAKAKKA. E ainda tem mais equipes que você vai conhecer.
         </Paragraph>
       </LetterBlock>
 
       <SectionDivider />
 
-      {/* Bloco 2 — branco — o início da parte mais séria */}
+      {/* Bloco 2 — branco — a virada para o que realmente importa */}
       <LetterBlock tone="white">
         <Paragraph>
-          Júlia, quero ser breve, porque os momentos que você vai viver
-          precisam ser <Highlight>vividos, e não contados</Highlight>.
+          Gustavo, esses momentos vão nos lembrar do que fazer quando
+          pensarmos que estamos perdidos. Não porque realmente estejamos,
+          mas porque nosso coração tem o costume de pregar peças na gente.
+          Por isso, devemos sempre deixar o coração aberto para novas
+          experiências: elas são passageiras demais. Erre muito, dance
+          muito, grite muito, faça bons amigos e não deixe o que é
+          importante para você escapar.
         </Paragraph>
 
         <Paragraph>
-          O EJC marcou a minha vida de uma forma que eu não consigo
-          colocar em palavras. Eu gostaria de conseguir mostrar para você
-          tudo o que vivi, mas sei que você está em boas mãos.
-        </Paragraph>
-
-        <Paragraph>
-          Enquanto escrevo esta mensagem, lembro dos meus momentos: dos
-          lanchinhos, da bandinha, dos apresentadores, da dedicação de
-          cada servo, do pessoal do trânsito... Tudo isso ficou guardado
-          no meu coração.
-        </Paragraph>
-
-        <Paragraph>
-          Oh, Júlia, minha querida irmã, esses dias vão te lembrar de uma
-          verdade muito importante:{' '}
+          E eu te digo: não será a bandinha, nem os apresentadores, nem o
+          pessoal do trânsito, nem qualquer outra equipe, nem mesmo eu.{' '}
           <Highlight>
-            sempre, sempre, sempre vale a pena caminhar com Cristo
+            Será Cristo quem vai olhar para você e fazer você quebrar todas
+            as suas barreiras mais íntimas
           </Highlight>
-          .
+          . E quando isso acontecer, você vai se sentir completamente
+          amado.
         </Paragraph>
       </LetterBlock>
 
       <MidLetterEmphasis>
-        Você é profundamente amada por Ele.
+        Nunca se esqueça de como é estar perdido e ser encontrado.
       </MidLetterEmphasis>
 
       {/* Bloco 3 — normal */}
       <div className="mt-stack-md">
         <LetterBlock tone="normal">
           <Paragraph>
-            Foi por você que o nosso Pai entregou Seu Filho na cruz. Não
-            será a bandinha, nem os apresentadores, nem o pessoal do
-            trânsito, nem qualquer outra equipe que fará a diferença.
-            Todos eles são apenas instrumentos.
-          </Paragraph>
-
-          <Paragraph>
-            <Highlight>Quem vai ao seu encontro é o próprio Cristo</Highlight>
-            . E, quando isso acontecer, você vai se sentir profundamente
-            amada.
-          </Paragraph>
-
-          <Paragraph>
-            Nunca podemos nos esquecer de como era estar perdidos e de
-            como é maravilhoso sermos encontrados por Deus.
-          </Paragraph>
-
-          <Paragraph>
-            Eu nunca vi Jesus em carne e osso. Mas, durante o meu EJC,
-            senti Sua presença de uma forma muito especial. Foi como
-            perceber que Ele estava ali, caminhando comigo e me
-            lembrando, a todo instante, do quanto eu era amado.
+            Eu nunca vi Jesus em carne e osso, mas, quando vivi o EJC,
+            senti a presença dEle mais forte perto de mim. E depois
+            daqueles dias, nunca mais parei de sentir. Somos humanos,
+            erramos e, ainda assim, somos amados. Não pelo que a gente é,
+            mas por quem Deus é.
           </Paragraph>
 
           <Paragraph>
@@ -238,14 +170,8 @@ export default function LetterContent() {
           </Paragraph>
 
           <Paragraph>
-            E, se você estiver lendo esta mensagem hoje, durma cedo e
-            descanse bem. Amanhã será mais um dia incrível. Aproveite
-            cada segundo, porque passa muito rápido.
-          </Paragraph>
-
-          <Paragraph>
-            Que Deus continue conduzindo cada passo seu durante esse
-            encontro.
+            Se você estiver lendo esta mensagem hoje, durma cedo e
+            descanse bem. Amanhã, com certeza, será incrível.
           </Paragraph>
         </LetterBlock>
       </div>
@@ -269,7 +195,11 @@ export default function LetterContent() {
           </Paragraph>
 
           <Paragraph>
-            Aliás! Deixei uma playlist com as músicas que marcaram meu EJC! Hoje, você vai poder ouvir algumas clickando lá no botãozinho acima, porém, amanhã quando você vir aqui, terá mais músicas! Vou ir liberando de acordo com os dias. (Junto com a carta do segundo dia, hehehe).
+            Aliás, deixei uma playlist com as músicas que marcaram o meu
+            EJC! Hoje, você já pode ouvir algumas clicando no botãozinho
+            aí em cima. Amanhã, quando voltar aqui, terá mais músicas: vou
+            liberando aos poucos, de acordo com os dias (junto com a carta
+            do segundo dia, hehehe).
           </Paragraph>
         </LetterBlock>
       </div>

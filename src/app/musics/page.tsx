@@ -7,6 +7,8 @@ async function getTracks(): Promise<Track[]> {
     `${process.env.APP_URL}/api/tracks`
   );
 
+  
+
   if (!res.ok) throw new Error('Falha ao buscar músicas');
 
   const data = await res.json();

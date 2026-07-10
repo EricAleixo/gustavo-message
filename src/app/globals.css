@@ -17,25 +17,25 @@
   --surface-container-highest: #e2e2e2;
   --surface-variant: #e2e2e2;
   --on-surface: #1a1c1c;
-  --on-surface-variant: #4d4635;
+  --on-surface-variant: #45505c;
   --inverse-surface: #2f3131;
   --inverse-on-surface: #f0f1f1;
 
   /* outline */
-  --outline: #7f7663;
-  --outline-variant: #d0c5af;
+  --outline: #5b6b7f;
+  --outline-variant: #bcd0e0;
 
-  /* primary (gold) */
-  --surface-tint: #735c00;
-  --primary: #735c00;
+  /* primary (azul) */
+  --surface-tint: #1a4b8f;
+  --primary: #1a4b8f;
   --on-primary: #ffffff;
-  --primary-container: #d4af37;
-  --on-primary-container: #554300;
-  --inverse-primary: #e9c349;
-  --primary-fixed: #ffe088;
-  --primary-fixed-dim: #e9c349;
-  --on-primary-fixed: #241a00;
-  --on-primary-fixed-variant: #574500;
+  --primary-container: #4a90d9;
+  --on-primary-container: #0d2f5c;
+  --inverse-primary: #7ab8f5;
+  --primary-fixed: #cfe4ff;
+  --primary-fixed-dim: #7ab8f5;
+  --on-primary-fixed: #001b3d;
+  --on-primary-fixed-variant: #0f3d73;
 
   /* secondary */
   --secondary: #60603e;
@@ -63,9 +63,9 @@
   --error-container: #ffdad6;
   --on-error-container: #93000a;
 
-  /* soft cream — the light-leak warmth mentioned in DESIGN.md, now a real token */
-  --soft-cream: #fffdd0;
-  --soft-cream-rgb: 255, 253, 208;
+  /* soft blue — light leak da HeroGradient */
+  --soft-blue: #e8f2ff;
+  --soft-blue-rgb: 232, 242, 255;
 
   /* radius */
   --radius-sm: 0.125rem;
@@ -138,10 +138,10 @@
   --color-error-container: var(--error-container);
   --color-on-error-container: var(--on-error-container);
 
-  --color-gold: #d4af37;
-  --color-gold-soft: rgba(212, 175, 55, 0.15);
-  --color-gold-border: rgba(212, 175, 55, 0.2);
-  --color-soft-cream: var(--soft-cream);
+  --color-blue: #1a4b8f;
+  --color-blue-soft: rgba(26, 75, 143, 0.15);
+  --color-blue-border: rgba(26, 75, 143, 0.2);
+  --color-soft-blue: var(--soft-blue);
 
   /* typography */
   --font-display: 'Playfair Display', serif;
@@ -176,13 +176,11 @@
   --text-label-caps--letter-spacing: 0.15em;
   --text-label-caps--font-weight: 600;
 
-  /* radius */
   --radius-sm: var(--radius-sm);
   --radius-md: var(--radius-md);
   --radius-lg: var(--radius-lg);
   --radius-xl: var(--radius-xl);
 
-  /* spacing */
   --spacing-gutter: var(--spacing-gutter);
   --spacing-margin-desktop: var(--spacing-margin-desktop);
   --spacing-margin-mobile: var(--spacing-margin-mobile);
@@ -193,7 +191,7 @@
   --container-container: var(--spacing-container-max);
 
   /* shadows */
-  --shadow-golden-aura: 0 0 24px 4px rgba(212, 175, 55, 0.15);
+  --shadow-golden-aura: 0 0 24px 4px rgba(26, 75, 143, 0.15);
 }
 
 body {
@@ -213,7 +211,7 @@ body {
   --fill: 0%;
   background: linear-gradient(
     to right,
-    var(--color-primary, #6366f1) var(--fill),
+    var(--color-primary, #1a4b8f) var(--fill),
     rgba(0, 0, 0, 0.1) var(--fill)
   );
   border-radius: 999px;
@@ -225,8 +223,8 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: var(--color-primary, #6366f1);
-  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+  background: var(--color-primary, #1a4b8f);
+  box-shadow: 0 0 0 4px rgba(26, 75, 143, 0.15);
   cursor: pointer;
   transition: transform 0.15s ease;
 }
@@ -240,7 +238,7 @@ body {
   height: 12px;
   border: none;
   border-radius: 50%;
-  background: var(--color-primary, #6366f1);
+  background: var(--color-primary, #1a4b8f);
   cursor: pointer;
 }
 
@@ -251,7 +249,7 @@ body {
   border-radius: 999px;
   background: linear-gradient(
     to right,
-    var(--color-primary, #6366f1) var(--fill),
+    var(--color-primary, #1a4b8f) var(--fill),
     rgba(0, 0, 0, 0.1) var(--fill)
   );
 }
@@ -261,7 +259,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--color-primary, #6366f1);
+  background: var(--color-primary, #1a4b8f);
   cursor: pointer;
 }
 
@@ -270,7 +268,7 @@ body {
   height: 10px;
   border: none;
   border-radius: 50%;
-  background: var(--color-primary, #6366f1);
+  background: var(--color-primary, #1a4b8f);
   cursor: pointer;
 }
 

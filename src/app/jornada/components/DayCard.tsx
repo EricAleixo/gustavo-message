@@ -55,7 +55,7 @@ export default function DayCard({ day }: DayCardProps) {
         )}
       </div>
 
-      <div className="flex flex-col items-center gap-1.5 border-t border-gold-border/60 px-6 py-5 text-center">
+      <div className="flex flex-col items-center gap-1.5 border-t border-blue-border/60 px-6 py-5 text-center">
         <span className="font-display text-headline-sm font-semibold text-on-surface">
           Dia {number}
         </span>
@@ -73,7 +73,7 @@ export default function DayCard({ day }: DayCardProps) {
   );
 
   const sharedClassName =
-    'group relative flex flex-col overflow-hidden rounded-lg border border-gold-border bg-surface-container-lowest transition-all duration-[0.4s] ease-in-out';
+    'group relative flex flex-col overflow-hidden rounded-lg border border-blue-border bg-surface-container-lowest transition-all duration-[0.4s] ease-in-out';
 
   return (
     <motion.div variants={cardVariants} transition={{ duration: 0.55, ease: 'easeOut' }}>
