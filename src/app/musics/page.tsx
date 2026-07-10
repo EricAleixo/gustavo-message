@@ -4,12 +4,14 @@ import { Track } from "@/src/lib/store/player-store";
 async function getTracks(): Promise<Track[]> {
 
   const res = await fetch(
-    `https://gustavo-message-ejc-nine.vercel.app/api/tracks`
+    `${process.env.APP_URL}/api/tracks`
   );
 
-  
-
-  if (!res.ok) throw new Error('Falha ao buscar músicas');
+  if (!res.ok) {
+    throw new Error(
+      `${res.status} ${res.statusText}\n${await res.text()}`
+    );
+  }
 
   const data = await res.json();
   return data.tracks;
