@@ -1,0 +1,23 @@
+import TrackList from "@/src/components/player/TrackList";
+import { Track } from "@/src/lib/store/player-store";
+
+async function getTracks(): Promise<Track[]> {
+  const res = await fetch(`http://localhost:3000/api/tracks`, {
+    cache: 'no-store', // ou 'force-cache' / revalidate, dependendo do seu caso
+  });
+
+  if (!res.ok) throw new Error('Falha ao buscar músicas');
+
+  const data = await res.json();
+  return data.tracks;
+}
+
+export default async function MusicPage() {
+  const tracks = await getTracks();
+  return (
+    <main className="mx-auto px-margin-mobile py-stack-xl sm:px-margin-desktop">
+      <h1 className="mb-stack-md font-display text-2xl font-bold text-on-surface">Músicas</h1>
+      <TrackList tracks={tracks} />
+    </main>
+  );
+}
