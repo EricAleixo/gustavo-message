@@ -88,110 +88,137 @@ export default function LetterContent() {
           <span className="float-left mr-2 font-display text-6xl font-bold leading-[0.8] text-primary">
             O
           </span>
-          i, Júlia! E aí, como está sendo o segundo dia? Espero que você não
-          tenha cochilado em nenhuma palestra... Não que eu esteja
-          insinuando nada, hein.
+          pa Gustavo!!!! Segundo dia, cara! Eae? Tú deve ter se acabado no
+          almoço, hein. Tá comendo bem visse bicho, é muito bom a comida,
+          hahahaha.
         </p>
 
         <TextWithMeme
           imageSrc="/meme-cochilo.png"
           imageAlt="Meme sobre cochilar na palestra"
         >
-          Pois adivinha quem dormiu... hehehehehehe!
+          Cara, imagino que nas palestras você tenha dormido dessa maneira:
         </TextWithMeme>
 
         <Paragraph>
-          Círculo rosa, né? Qual foi o nome que vocês escolheram? Só não
-          vale &ldquo;Rosas de Maria&rdquo; — esse já tá batido, viu?
-          Desenharam algum símbolo pro círculo? E como foi a apresentação
-          de vocês? Desculpa a enxurrada de perguntas, mas é que dá muita
-          vontade de saber tudo. Pode responder depois, com calma.
+          Círculo branco, correto? Tô curioso pro nome, gostou das pessoas?
+          Digo, é algo que você vai conhecendo melhor.
         </Paragraph>
 
         <Paragraph>
-          Gostou do pessoal do Hollywood? Eles atuam muito bem, né? E o
-          trânsito, como sempre, sendo incrível. Ah, e o almoço? Só de
-          pensar já me dá vontade de rir. O pessoal da Boa Vontade te
-          serviu bem? Se você está com pedra nos rins, deve ter ido um
-          bocado ao banheiro (eu imagino). No meu EJC eu estava muito
-          apertado, e a equipe ainda fazia brincadeira — quase me fez
-          passar vergonha, mas foi uma piada tão boa que guardei com
-          carinho até hoje. E o pessoal dos lanchinhos? Sempre engraçados,
-          as cenas deles eram impagáveis.
+          Você pode escrever cartas, deixe preparada um dia antes.
+          Infelizmente não consegui fazer quando eu fiz (dormi direto), então
+          a chance de você tá lendo essa aqui quando já tiver acabado é
+          enorme. Espero que tenha escrito algo mesmo assim.
         </Paragraph>
 
         <Paragraph>
-          Gostou dos Correios? Eles vivem mudando de lugar do nada — isso
-          me tirava do sério —, mas sempre entregam as cartas certinho. Você
-          já deve ter recebido um bocado. E, já que estamos falando nisso:
-          você também pode escrever! Separa um tempinho hoje e deixa uma
-          carta pronta pra amanhã. É só avisar: <Highlight>&ldquo;Aqui tem carta&rdquo;</Highlight>,
-          que o Correio já vem buscar.
+          E então? Tá matando sua curiosidade? Cada momento é significativo,
+          aproveite mesmo: as palestras, os lanches, a boa vontade (as
+          pessoas que te levam pro banheiro), o trânsito, a bandinha e as
+          equipes que você vai conhecer. Aliás, acredito que você tenha
+          notado que acontece muita coisa &ldquo;estranha&rdquo; por aí,
+          hehehehehe. Acontece também que há equipes trabalhando sem ver, ou
+          sem receber créditos por isso. Acredite, é realmente um trabalho
+          muito forte. Talvez você nunca veja eles, mas eles fizeram
+          diferença na sua vida. Afinal, cada um dali está com o propósito de
+          te servir. Cada um passou pelo que você está passando e, assim como
+          eu, deseja que você tenha uma experiência tão boa quanto a deles.
         </Paragraph>
 
         <Paragraph>
-          Comprou algum broche? Eu nunca consegui um no meu ano, mas prometo
-          que ainda vou comprar o meu.
+          E então? O pessoal de Hollywood (os atores do trânsito) não são
+          massas? Estou ansioso pra ver novamente as peças. Mas sim, são as
+          mesmas peças, não me lembro de todas, mas tem momentos muito, mas
+          muito bons! E bota engraçado, KAKAKAKAKAKK. Depois te conto. Os
+          lanchinhos também não ficam pra trás, é muito engraçado as pequenas
+          peças que eles fazem também. Se Hollywood soubesse o talento...
+          rapaz. Não vou contar o que acontece, pois você pode não ter vivido
+          ainda. Mas cara, tem uma cena que acho que você vai rir muito. Se
+          for igual o meu EJC, acredito que seja amanhã. Espero muito, de
+          verdade, que seja! HAHAHAHAHAHAHA
         </Paragraph>
 
         <Paragraph>
-          Está aproveitando cada momento? Passa rápido, viu — já é o
-          segundo dia, e amanhã é o último desses três. O fim dessa noite
-          mexeu muito comigo no meu EJC.
+          Bem, deixando as risadas um pouco de lado: e então, sei que é um
+          dia cansativo, mas aprendeu alguma coisa boa? As palestras, as
+          pessoas?
         </Paragraph>
       </LetterBlock>
 
       <SectionDivider />
 
-      {/* Bloco 2 — branco — a Via Sacra e o peso do sacrifício */}
+      {/* Bloco 2 — branco — o deserto e o sacrifício de Cristo */}
       <LetterBlock tone="white">
         <Paragraph>
-          Imagina só: andar como Cristo andou. Pedras, espinhos, gritos,
-          ódio. Tantos ferimentos — e por quê? Por que o justo precisou se
-          sacrificar pelos injustos? Por que o puro precisou se sujar no
-          lugar de quem estava sujo? Por que o amor foi tratado com tanto
-          desprezo?
+          E hoje escrevo essa carta pois sei que foi o dia que quebrou uma
+          das minhas barreiras para Cristo. E o deserto, como foi? O deserto
+          é a simulação do que Cristo passou: do seu caminhar, do seu viver e
+          do seu morrer. Imagine viver em um mundo onde você veio para
+          salvá-lo e ser crucificado. Sabia que é isso que é um sacrifício?
+          O puro se sacrifica pelo sujo e assim Jesus fez por nós.
         </Paragraph>
 
         <Paragraph>
-          A única resposta que me vem à mente é: <Highlight>por nós</Highlight>.
+          Antes da execução, Jesus foi submetido à flagelação romana, um
+          castigo extremamente violento. Os soldados usaram um <Highlight>flagrum</Highlight>, um
+          chicote com várias tiras de couro cujas pontas tinham pequenos
+          pedaços de osso, metal ou chumbo. Cada golpe rasgava a pele e podia
+          atingir músculos e tecidos profundos, causando intensa perda de
+          sangue, dores fortes e um estado de extrema fraqueza. Muitos
+          condenados morriam só nessa etapa, pelo choque dos ferimentos.
         </Paragraph>
 
+        <TextWithMeme
+          imageSrc="/flagrum.jpg"
+          imageAlt="flagrum"
+        >
+          Depois do açoite, os soldados ainda zombaram dele, vestindo um
+          manto e colocando na cabeça uma coroa feita de espinhos, chamando
+          ele ironicamente de &ldquo;Rei dos Judeus&rdquo;. Aqui está a flagrum, arma usada para torturar Cristo:
+        </TextWithMeme>
+
         <Paragraph>
-          Jesus nos ama independentemente do que fazemos. Para Ele, somos
-          plenamente amados e inteiros. Tudo o que você está vivendo esses
-          dias não é um acaso — foi pensado especialmente para você.
+          E, bem, você viu, sentiu e ouviu como foi cada momento em que Ele,
+          nosso Pai, viveu. E isso, Gustavo, é o preço de ser o homem mais
+          homem do mundo. Não foi com destruição, sendo que ele poderia ter
+          feito isso num estalar de dedos. Não! Jesus, mesmo sendo Deus, se
+          fez homem. Ele sentia como nós, chorava como nós, o sangue dele era
+          vermelho, como o nosso. Mas mesmo assim, ele fez. Pois o amor dele
+          é tão grande que colocou sua vida e sua dor para nos libertar.
         </Paragraph>
       </LetterBlock>
 
       <MidLetterEmphasis>
-        Cristo está olhando para você, agora mesmo. Você nunca esteve
-        sozinha.
+        Mesmo sendo Deus, ele chorava como nós. O sangue dele era vermelho,
+        como o nosso.
       </MidLetterEmphasis>
 
-      {/* Bloco 3 — normal */}
+      {/* Bloco 3 — normal — a ressurreição e o amor como caminho */}
       <div className="mt-stack-md">
         <LetterBlock tone="normal">
           <Paragraph>
-            Mesmo estando num círculo diferente do círculo de Gustavo,
-            saiba que isso não muda nada: Cristo enxerga você do mesmo jeito,
-            com o mesmo amor. Ele morreu por você. Por isso, te peço, como
-            irmão, como amigo e como pessoa: ame aquilo que Cristo defendeu.
+            Vou te contar algo que talvez você não saiba: a morte de Cristo
+            foi a nossa salvação, pois só temos a chance da vida eterna
+            graças a ele. Com sua ressurreição, ele desceu à mansão dos
+            mortos (também conhecida como Hades, o lugar onde iam as almas),
+            e os justos que estavam lá, Abraão, Moisés, Davi, os profetas,
+            conseguiram a vida eterna e subiram com Deus Filho rumo ao
+            encontro de Deus Pai.
           </Paragraph>
 
           <Paragraph>
-            Esse mundo, muitas vezes, esquece o que é o amor de verdade.
-            Mas, se Cristo não desistiu de nós, por que desistiríamos do
-            mundo? <Highlight>O amor é o único caminho</Highlight> e esse
-            caminho começa com você. Ame mais, seja mais gentil, abrace
-            mais, converse mais. Faça hoje aquilo que normalmente você não
-            faria. Você é a melhor versão de si mesma, filha de um Rei.
+            <Highlight>O amor é o único caminho</Highlight>. Se morrermos,
+            morremos por Cristo. Se vivermos, viveremos por Cristo. Vivendo
+            ou morrendo, seremos de Cristo. Pois, nesse mundo:{' '}
+            <Highlight>viver é Cristo, morrer é lucro</Highlight>. Continue
+            sendo gentil e ame, ame mais, muito mais! Estamos aprendendo a
+            amar, e sempre aprenderemos isso.
           </Paragraph>
 
           <Paragraph>
-            Escolhi uma música especial para esse momento, porque ela
-            resume exatamente o que eu queria te dizer agora: se entregue,
-            e peça um coração semelhante ao de Cristo.
+            Escolhi &ldquo;Isaías 53&rdquo; como música, pois achei que
+            combinaria com esse momento. Escute bem, por favor.
           </Paragraph>
         </LetterBlock>
       </div>
@@ -207,15 +234,9 @@ export default function LetterContent() {
       <div className="mt-stack-md">
         <LetterBlock tone="white">
           <Paragraph>
-            Você não sairá daqui conhecida como Santa Maria Júlia de
-            Guarabira — mas vai sair com um redirecionamento real rumo à
-            santidade. E isso é possível, sim. Depende da nossa batalha,
-            dia após dia. Ao olhar para aquela cruz, perceba que ela não é
-            um peso impossível de carregar, mas um caminho totalmente
-            alcançável.
+            Termino por aqui. Hahaha, longo, né? Mas lembre-se:
           </Paragraph>
 
-          {/* Imagem da cruz — troque "cruz.jpg" pelo arquivo real em public/ */}
           <motion.div
             className="flex justify-center py-stack-sm"
             initial={{ opacity: 0, scale: 0.9 }}
@@ -233,24 +254,16 @@ export default function LetterContent() {
           </motion.div>
 
           <Paragraph>
-            Amanhã será um grande dia, o fim dessa jornada. Se prepare,
-            porque vai ser especial e único. E, até lá, se quiser orar,
-            entregue ao Senhor exatamente o que você está sentindo agora,
-            com suas próprias palavras. Peça, sinceramente, por um coração
-            cada vez mais parecido com o d&apos;Ele.
+            Olhe no player, tem mais músicas disponíveis hoje! Bom resto de
+            encontro, e como eu disse, aproveite, cara!{' '}
+            <Highlight>
+              Cristo está com você todo dia, mas está usando seus
+              instrumentos pra você se dar conta disso.
+            </Highlight>
           </Paragraph>
 
           <Paragraph>
-            Bem, até amanhã! Apareceram mais músicas na playlist, escute
-            agora ou quando se sentir mais à vontade. Tem duas em especial
-            que são lindíssimas: <Highlight>&ldquo;Enquanto Eu Te
-            Adoro&rdquo;</Highlight> e{' '}
-            <Highlight>&ldquo;Jesus, Meu Esposo&rdquo;</Highlight>.
-          </Paragraph>
-
-          <Paragraph>
-            Faça bastante amizade no seu círculo, viu? Bons sonhos e boa
-            noite, Júlia!
+            Até depois! Nos vemos por aqui no terceiro dia!
           </Paragraph>
         </LetterBlock>
       </div>

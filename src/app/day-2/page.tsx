@@ -19,7 +19,7 @@ export default function DayPage() {
       <HeroGradient />
       <PageHero />
       <LetterContent />
-      <AutoPlayTrigger trackId="7" delayMs={5000} />
+      <AutoPlayTrigger trackId='5' delayMs={5000} />
     </main>
   );
 }

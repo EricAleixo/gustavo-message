@@ -12,7 +12,7 @@ type EventDay = (typeof EVENT_DAYS)[number];
 // Faixas que precisam cair num dia específico do evento
 const FIXED_DAY_ASSIGNMENTS: Record<string, EventDay> = {
   'Bandinha EJC Monteiro, Comunidade Shamah - Xalalá.mp3': 10,
-  'Colo de Deus, Gabryelle Esteves - Eis-Me Aqui.mp3': 11,
+  'Colo de Deus - ISAÍAS 53  COLO DE DEUS  EP NAZARENO (Visualizer).mp3': 11,
   'Anjos de Resgate Oficial - Tua Família - Anjos de Resgate (DVD ao vivo em Brasilia).mp3': 12,
 };
 

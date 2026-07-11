@@ -19,7 +19,7 @@ export default function PageHero() {
         transition={{ duration: 0.6, delay: 0.1, ease: 'easeOut' }}
         className="mt-stack-sm font-display text-display-lg-mobile font-bold text-on-surface sm:text-display-lg"
       >
-        Você nunca está sozinha
+        Você nunca está sozinho
       </motion.h1>
       <motion.span
         initial={{ opacity: 0, scaleX: 0 }}
