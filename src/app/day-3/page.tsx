@@ -8,7 +8,7 @@ export default function DayPage() {
 
   const now = new Date();
   
-    const releaseDate = new Date(now.getFullYear(), 6, 12, 17, 0, 0);
+    const releaseDate = new Date(now.getFullYear(), 6, 12, 16, 0, 0);
   
     if (now < releaseDate) {
       redirect("/");

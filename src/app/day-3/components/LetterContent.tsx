@@ -88,29 +88,31 @@ export default function LetterContent() {
           <span className="float-left mr-2 font-display text-6xl font-bold leading-[0.8] text-primary">
             B
           </span>
-          <Highlight>EM-VINDA À FAMÍLIA EJC, JÚLIA!!!</Highlight>{' '}
-          Se você tiver vendo essa carta, significa que já está em casa.
+          <Highlight>EM-VINDO À FAMÍLIA, GUSTAVO!!!</Highlight>{' '}
+          Meu irmão de quarto, de brincadeiras, de estudo e agora, de Cristo (você sempre foi, mas talvez não tenha ciência disso). Depois de agora, a sua vida ainda vai continuar mudando, pode ter certeza disso, hahahahaha!
         </p>
+
+        <Paragraph>
+          Não é só o seu círculo, ou a Santo Antônio: todo mundo no mundo é seu irmão. Porém, aqueles que viveram o que você acabou de viver têm plena ciência disso. Por isso se chama família EJC.
+        </Paragraph>
 
         <TextWithMeme
           imageSrc="/gatinho.webp"
           imageAlt="Meme sobre cochilar na palestra"
         >
-          E os três dias acabaram... Triste, né?
+          E então? Infelizmente, acabou...
         </TextWithMeme>
 
         <Paragraph>
-          Então, acabou. Meses de espera pra só três dias, hahaha. Mas
-          e aí, o que você aprendeu nesses três dias? Quem você
-          conheceu, o que você viu... Valeu a pena?
+          Mas vamos ver os frutos desses dias, o que achou? Superou as expectativas, atingiu, esperava mais? Não querendo ser presunçoso, mas acho que já sei a resposta, hahaha!
         </Paragraph>
 
         <Paragraph>
-          Imagino como deve ter sido a sua reação ao tirar a carta da
-          sua família debaixo da cadeira, o corredor de velas, o álbum
-          da sua família... Esses momentos são, inegavelmente, <Highlight>lindos. </Highlight>
-          Tudo o que fizemos faz sentido no momento em que nos lembram
-          disso: que somos, sim, amados.
+          E aí, tô curioso: vocês também tiveram a cena do Chapolin correndo atrás do lobo? Cara, que cena boa, eu ri muito, muito mesmo. E quando o pessoal dos lanchinhos entrou em greve e foi jogar truco? Não sei se essas coisas se repetem em todo EJC do mesmo jeito, mas a gente conversa tomando um café e vê as diferenças e as igualdades.
+        </Paragraph>
+
+        <Paragraph>
+          Só tenho certeza de algumas coisas, tipo... e aí, como foi pegar a carta da sua família debaixo da cadeira?
         </Paragraph>
       </LetterBlock>
 
@@ -119,57 +121,38 @@ export default function LetterContent() {
       {/* Bloco 2 — branco — a história pessoal do Eric */}
       <LetterBlock tone="white">
         <Paragraph>
-          Quando fiz meu EJC, foi justamente essa a minha pergunta: “Às
-          vezes, sentimos que não somos amados pelos nossos pais.” Em
-          seguida, Manu e Rodrigo (meus pais de círculo) começaram a
-          chorar e a explicar o que devemos fazer. Ao pegar aquela
-          carta, meu coração gelou. E ao ler a primeira frase — &ldquo;Eric,
-          meu presente de Deus...&rdquo; — meu coração desabou em mil
-          pedaços. Apesar das brigas, dos desentendimentos, eu sou, sim,
-          amado. E o EJC serviu pra unir a minha família, muito, mas
-          muito mais. Ao olhar pro lado, vi muitas pessoas chorando e se
-          abraçando. Pois o mesmo sentimento que eu senti, todo mundo
-          sentiu.
+          No meu círculo, eu tinha falado: "Às vezes não sabemos se nossos pais nos amam mesmo, é uma dúvida, por mais que já saibamos a resposta." Manu olhou para Rodrigo (meu pai de círculo) e os dois começaram a chorar enquanto nos instruíam a pegar a carta. Meu coração tremeu ao tocar nela, e ao abrir e ler: "Eric, meu presente de Deus".
         </Paragraph>
 
         <Paragraph>
-          E tenho certeza que você também. Nós somos amados, e temos um
-          Pai que, por mais que não o entendamos, temos que ter a
-          certeza de que cada milímetro dos nossos passos está sendo
-          guiado. E isso se chama fé, você não nasce com ela, como
-          muita gente pensa; você a adquire através da experiência
-          vivida.
+          Sobraram apenas pedaços dele, o que me fez crer que sou amado dia após dia e simplesmente não via isso. E então essa música que tocava ao fundo começou a fazer sentido: "Percebe e entende que os melhores amigos são aqueles que estão em casa, esperando por ti..."
+        </Paragraph>
+
+        <Paragraph>
+          Gustavo, foi assim para a minha família. E para você, espero que sirva para aumentar ainda mais esses casos. E sempre: "Se por acaso a dor chegar, ao seu lado sempre vão estar, para te acolher e te amparar..." E faço das palavras dessa linda canção as minhas: volte para a sua família, sempre, não só hoje, mas sempre que puder, ou simplesmente quando der vontade.
         </Paragraph>
       </LetterBlock>
 
       <MidLetterEmphasis>
-        Deus simplesmente te ama infinitamente, pois não é sobre quem
-        você é, mas sim sobre quem Ele é.
+        Deus não é ilusão. Ele viu cada passo dado e fez acontecer justamente para você, para cada pessoa, em cada momento.
       </MidLetterEmphasis>
 
       {/* Bloco 3 — normal — álbum da família e caminhada de velas */}
       <div className="mt-stack-md">
         <LetterBlock tone="normal">
           <Paragraph>
-            E quando abrimos o álbum da nossa família e vimos nossas
-            fotos, ah, Júlia, esses momentos, um dia, vão nos salvar
-            quando parecermos estar perdidos. Andaremos na rua e
-            encontraremos pessoas que nos serviram e lembraremos como nos
-            sentimos, e usaremos esse sentimento em novas pessoas!
+            Entenda que não há nada como um lar, não é mesmo? Hahahaha. Ao andar pelo caminho com todo mundo com as velas acesas, parecia que Cristo tinha guiado meu caminho, passo a passo. Aquelas luzes iluminavam meu caminho, e eram pessoas que as acendiam. Pessoas em quem, estranhamente, senti a sensação de aconchego, por mais que o tempo tenha sido tão curto.
           </Paragraph>
 
           <Paragraph>
-            E o caminhar de velas? Os passos em direção a uma nova vida,
-            uma vida em que o caminho é escuro, mas há pessoas para
-            iluminar cada passo. E essas pessoas estão dentro da nossa
-            casa.
+            Me fala, como foi o teu álbum da família? Ah, Gustavo, imagine ter um dia cansativo, em que as coisas não parecem fazer sentido, e simplesmente abrir aquele álbum e ver todas as suas dúvidas sendo sanadas. É uma benção. E aí, teve uma festa boa por aí? Abraçou sua mãe, seu pai e seu irmão bem forte? Imagino que sim.
           </Paragraph>
         </LetterBlock>
       </div>
 
       <div className="mt-stack-md">
         <PullQuoteCard
-          quote="Percebe e entende que os melhores amigos são aqueles que estão em casa, esperando por ti..."
+          quote="Se por acaso a dor chegar, ao teu lado vão estar, pra te acolher e te amparar... pois não há nada como um lar!"
         />
       </div>
 
@@ -177,28 +160,15 @@ export default function LetterContent() {
       <div className="mt-stack-md">
         <LetterBlock tone="white">
           <Paragraph>
-            Júlia, todo mundo que te conhece te ama. Só que, às vezes,
-            estamos tão ocupados com a monotonia e a correria do dia a
-            dia que nos esquecemos de demonstrar isso. Claro que isso não
-            é pra ser normalizado, e o Encontro de Jovens (com Cristo, em
-            Cristo, por Cristo) serve pra lembrar até as nossas famílias
-            do quão especiais somos.
+            E então, Gustavo, é isso: é o fim desses três dias, mas o começo de uma nova vida. Hehehehehe, agora que você é da família EJC vai poder participar dos eventos que tem! Eles servem para reviver esses dias, e você é um cara sortudo: o Vivo EJC em Bananeiras está prometido para esse ano. Te vejo lá, hein.
           </Paragraph>
 
           <Paragraph>
-            Então... finalizo a minha carta (3 dias já) com: <Highlight>SEJA
-            BEM-VINDA A ESSE MUNDO</Highlight>, que transformou minha vida e
-            continua a transformá-la a cada vez que abro meu coração pra
-            isso. Obrigado pelo seu &ldquo;sim&rdquo;. Não acabou, ainda tem
-            muito, muito mais pela frente!
+            Sentiu a vontade de servir em algo? Caso não tenha sentido, relaxe, tem muito mais ainda.
           </Paragraph>
 
           <Paragraph>
-            Diga sim, Júlia. Sempre diga sim às novas experiências que
-            foram feitas pra você! A santidade é real, a juventude quer
-            ser santa! A salvação é individual, mas não deixarei de rezar
-            por ti a caminho de uma vida com Deus. Hei de te ver em uma
-            nova vida.
+            Então finalizo minha carta: <Highlight>BEM-VINDO NOVAMENTE, GUSTAVO!</Highlight> Obrigado pelo seu "sim" e por ter vivido esses momentos que mudaram a minha vida e ainda continuam a transformá-la, toda vez que abro meu coração para isso. Viva a Cristo, viva a santidade! Os jovens querem ser santos, os jovens querem a verdade! A salvação é individual, mas rezarei todos os dias para que você alcance a sua. Hei de te ver em uma nova vida, pois, embora estejamos na carne, não militamos segundo ela.
           </Paragraph>
         </LetterBlock>
       </div>
@@ -214,30 +184,15 @@ export default function LetterContent() {
       <div className="mt-stack-md">
         <LetterBlock tone="normal">
           <Paragraph>
-            Obrigado por ter aceitado esse convite especial! Seja
-            bem-vinda novamente: vai entrando e se aconchegando. Pode até
-            demorar um pouquinho, mas pouco a pouco vai se tornando
-            natural. Nos veremos nos retiros, tem retiros de EJC que
-            servem pra revivermos esses 3 dias. Por sua sorte, acredito
-            que o <Highlight>VIVO EJC</Highlight> Bananeiras seja esse ano, bora, quando for
-            divulgado (fica de olho no grupo do EJC que colocam lá).
+            Pode ir entrando e se aconchegando, pode demorar um pouquinho, mas com o tempo vai ficando natural. Apresente esse lado da igreja para as pessoas que ainda não conhecem.
           </Paragraph>
 
           <Paragraph>
-            Você é especial: luz, energia, gentileza e calor. Conquiste
-            tudo que puder, ame as pessoas, seja gentil, faça seu trabalho
-            da melhor forma, nunca desacredite em você, ame sua família e,
-            acima de tudo: <Highlight>seja feliz!</Highlight>
+            Você é especial, uma pessoa gentil, com princípios e força. Ame as pessoas, seja gentil ao ponto de incentivá-las a amar mais. Faça boas companhias e, acima de tudo: <Highlight>seja feliz!</Highlight>
           </Paragraph>
 
           <Paragraph>
-            Feliz EJC, minha irmã de monitoria, de curso, de vida e de
-            Cristo (sempre foi, mas agora com ciência disso). Infelizmente,
-            não somos irmãos de círculo, mas vai que um dia a gente serve
-            junto no mesmo trabalho, então seremos irmãos de trabalho!
-            (Nem sei se existe, mas se não existir, vou criar!) Tenha um
-            resto de dia, não, de vida, excelente! Até mais tarde. Mostra a
-            camisa do encontro depois!
+            Feliz Encontro de Jovens com Cristo, em Cristo e por Cristo, Gustavo! Espero que Deus me permita servir ao seu lado em algum momento. Você é amado infinitamente vezes o infinito. Desejo a você um excelente resto de dia, não, de vida! Aproveite as novas músicas e até depois. Mostra a camisa do encontro quando puder!
           </Paragraph>
         </LetterBlock>
       </div>
